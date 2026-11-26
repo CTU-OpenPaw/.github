@@ -1,0 +1,55 @@
+CTU-OpenPaw Open-Source Ecosystem (LatticeDX v0.4.2)
+Copyright 2026 CTU-OpenPaw
+
+This organization maintains software and documentation developed by CTU-OpenPaw
+(https://github.com/CTU-OpenPaw).
+
+================================================================================
+1. Organization-Wide Apache-2.0 Repositories
+================================================================================
+All original first-party code, documentation, governance manifests, and
+templates authored by CTU-OpenPaw across the 4 ecosystem repositories are
+licensed under the Apache License, Version 2.0 (see root LICENSE in each repo):
+
+  - CTU-OpenPaw/.github            — Organization profile, branding, and OSS governance
+    https://github.com/CTU-OpenPaw/.github
+  - CTU-OpenPaw/lattice-dx         — Core DX-OS Open-Core Enterprise Platform (v0.4.2)
+    https://github.com/CTU-OpenPaw/lattice-dx
+  - CTU-OpenPaw/lattice-docs       — Bilingual VitePress documentation portal (VI/EN)
+    https://github.com/CTU-OpenPaw/lattice-docs
+  - CTU-OpenPaw/lattice-templates  — Curated LatticeFlow, DMN, n8n, Form & Pack blueprints
+    https://github.com/CTU-OpenPaw/lattice-templates
+
+================================================================================
+2. Pure-OSI Boundary (0 BSL-1.1) & NocoBase 2.2.50 Clause 5.2 Attribution
+================================================================================
+CTU-OpenPaw enforces a strict Pure-OSI source repository policy (0 BSL-1.1 /
+Business Source License software across source code, workspace dependencies,
+SBOM components, and core infrastructure).
+
+- LatticeDX source repositories contain ZERO upstream/nocobase Git submodules,
+  ZERO .gitmodules files, and do not copy, embed, or redistribute NocoBase
+  upstream source code.
+- Host NocoBase runtime (nocobase/nocobase:2.2.50@sha256:04b75164936e7314ef74d82844bc56c9f34ed7ff1ca976ca53ffac2d3c88d777)
+  is executed strictly as an external OCI container outside the Git repositories.
+- All 7 first-party LatticeDX NocoBase plugins declare
+  "nocobase": { "sdkProvidedByHost": true }, invoke host SDK APIs at runtime,
+  and transparently preserve NocoBase License Agreement (updated 2026-02-24)
+  Clause 5.2 UI attribution:
+    * "Powered by NocoBase"
+    * Version: "v2.2.50"
+    * Link: https://www.nocobase.com
+    * "License settings"
+
+================================================================================
+3. Third-Party Ecosystem & Runtime Dependencies
+================================================================================
+- Documentation Portal (CTU-OpenPaw/lattice-docs): Built with VitePress (MIT
+  License) and OSI-approved documentation tooling.
+- Core Platform (CTU-OpenPaw/lattice-dx): Full CycloneDX 1.5 SBOM (257/257
+  resolved components, 0 missing/NONE licenses, 0 BSL-1.1) and external OCI
+  container digests are maintained in:
+    * https://github.com/CTU-OpenPaw/lattice-dx/blob/main/NOTICE
+    * https://github.com/CTU-OpenPaw/lattice-dx/blob/main/COPYRIGHT.txt
+    * https://github.com/CTU-OpenPaw/lattice-dx/blob/main/docs/sbom-cyclonedx.json
+    * https://github.com/CTU-OpenPaw/lattice-dx/blob/main/docs/third-party.md

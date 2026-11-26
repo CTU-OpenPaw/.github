@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="banner-title-dark banner-desc-dark">
+  <title id="banner-title-dark">CTU-OpenPaw — LatticeDX v0.4.2 Open Enterprise Operating Platform</title>
+  <desc id="banner-desc-dark">Flagship dark-mode organization banner for CTU-OpenPaw featuring LatticeDX v0.4.2, Pure-OSI Apache-2.0 licensing, 7 plugins, 56 PG16 FORCE RLS tables, 257/257 SBOM, and 2,509 tests.</desc>
+  <defs>
+    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="55%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#111C33"/>
+    </linearGradient>
+    <radialGradient id="glow-orange-dark" cx="80%" cy="46%" r="44%">
+      <stop offset="0%" stop-color="#F45D22" stop-opacity="0.24"/>
+      <stop offset="58%" stop-color="#FB923C" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#F45D22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-teal-dark" cx="18%" cy="85%" r="46%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#14B8A6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-bar-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="title-accent-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#F45D22"/>
+    </linearGradient>
+    <linearGradient id="shield-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <pattern id="lattice-grid-dark" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.38"/>
+      <circle cx="0" cy="0" r="1.4" fill="#64748B" fill-opacity="0.38"/>
+    </pattern>
+    <filter id="card-shadow-dark" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="2" y="2" width="1276" height="356" rx="20" fill="url(#bg-dark)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1276" height="356" rx="20" fill="url(#lattice-grid-dark)"/>
+  <rect x="2" y="2" width="1276" height="356" rx="20" fill="url(#glow-orange-dark)"/>
+  <rect x="2" y="2" width="1276" height="356" rx="20" fill="url(#glow-teal-dark)"/>
+
+  <!-- Top Brand Accent Bar -->
+  <rect x="56" y="18" width="1168" height="4" rx="2" fill="url(#accent-bar-dark)" opacity="0.92"/>
+
+  <!-- Left Content: Eyebrow Pills -->
+  <g transform="translate(56, 46)">
+    <rect x="0" y="0" width="248" height="30" rx="15" fill="#431407" fill-opacity="0.65" stroke="#FB923C" stroke-opacity="0.55" stroke-width="1.2"/>
+    <circle cx="16" cy="15" r="4.5" fill="#FB923C"/>
+    <text x="29" y="19.5" class="mono" font-size="11.5" font-weight="700" fill="#FED7AA" letter-spacing="0.6">CTU-OPENPAW · OSS ORG</text>
+
+    <rect x="260" y="0" width="84" height="30" rx="15" fill="#172554" fill-opacity="0.7" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="302" y="19.5" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#BFDBFE">v0.4.2</text>
+
+    <rect x="356" y="0" width="192" height="30" rx="15" fill="#042F2E" fill-opacity="0.7" stroke="#2DD4BF" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="452" y="19.5" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#99F6E4">Apache-2.0 · Pure-OSI</text>
+  </g>
+
+  <!-- Main Title & Subtitle -->
+  <text x="56" y="142" class="sans" font-size="52" font-weight="800" fill="#F8FAFC" letter-spacing="-1.2">CTU-OpenPaw</text>
+
+  <text x="56" y="190" class="sans" font-size="23" font-weight="700" fill="#E2E8F0">
+    <tspan fill="url(#title-accent-dark)" font-weight="800">LatticeDX</tspan>
+    <tspan fill="#64748B" font-weight="500"> — </tspan>
+    <tspan fill="#E2E8F0">Open Enterprise Operating Platform</tspan>
+  </text>
+
+  <text x="56" y="226" class="sans" font-size="15.5" font-weight="500" fill="#94A3B8">
+    Agentic App Builder 2.0 · LatticeFlow v2 · Multi-Portal · IIoT Digital Twin
+  </text>
+
+  <!-- Bottom Verified Metric Chips -->
+  <g transform="translate(56, 266)">
+    <rect x="0" y="0" width="176" height="36" rx="10" fill="#111827" stroke="#334155" stroke-width="1.2" filter="url(#card-shadow-dark)"/>
+    <circle cx="16" cy="18" r="4" fill="#FB923C"/>
+    <text x="28" y="22.5" class="mono" font-size="12" font-weight="600" fill="#E2E8F0">7 Apache-2.0 Plugins</text>
+
+    <rect x="188" y="0" width="164" height="36" rx="10" fill="#111827" stroke="#334155" stroke-width="1.2" filter="url(#card-shadow-dark)"/>
+    <circle cx="204" cy="18" r="4" fill="#60A5FA"/>
+    <text x="216" y="22.5" class="mono" font-size="12" font-weight="600" fill="#E2E8F0">56 PG16 FORCE RLS</text>
+
+    <rect x="364" y="0" width="216" height="36" rx="10" fill="#111827" stroke="#334155" stroke-width="1.2" filter="url(#card-shadow-dark)"/>
+    <circle cx="380" cy="18" r="4" fill="#2DD4BF"/>
+    <text x="392" y="22.5" class="mono" font-size="12" font-weight="600" fill="#E2E8F0">257/257 SBOM · 0 BSL-1.1</text>
+
+    <rect x="592" y="0" width="180" height="36" rx="10" fill="#111827" stroke="#334155" stroke-width="1.2" filter="url(#card-shadow-dark)"/>
+    <circle cx="608" cy="18" r="4" fill="#A78BFA"/>
+    <text x="620" y="22.5" class="mono" font-size="12" font-weight="600" fill="#E2E8F0">2,509 Tests · 124 E2E</text>
+  </g>
+
+  <!-- Right Graphic: Lattice Ecosystem Vector Emblem -->
+  <g transform="translate(840, 32)">
+    <!-- Outer Lattice Orbit & Connectors -->
+    <circle cx="205" cy="148" r="118" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="5 5"/>
+    <circle cx="205" cy="148" r="88" fill="none" stroke="#FB923C" stroke-width="1.2" stroke-opacity="0.45"/>
+
+    <!-- Vector Connection Lines to 4 Repo Nodes -->
+    <line x1="205" y1="148" x2="72" y2="54" stroke="#FB923C" stroke-width="1.6" stroke-opacity="0.6"/>
+    <line x1="205" y1="148" x2="340" y2="54" stroke="#60A5FA" stroke-width="1.6" stroke-opacity="0.6"/>
+    <line x1="205" y1="148" x2="72" y2="244" stroke="#2DD4BF" stroke-width="1.6" stroke-opacity="0.6"/>
+    <line x1="205" y1="148" x2="340" y2="244" stroke="#A78BFA" stroke-width="1.6" stroke-opacity="0.6"/>
+
+    <!-- Center Hexagonal Shield + Stylized OpenPaw Vector Emblem -->
+    <polygon points="205,74 269,111 269,185 205,222 141,185 141,111" fill="url(#shield-dark)" stroke="#FB923C" stroke-width="2.6" stroke-linejoin="round" filter="url(#card-shadow-dark)"/>
+    <!-- Antenna Node (left-middle open bay, echoing mascot tail) -->
+    <polyline points="141,154 123,154 116,140" fill="none" stroke="#FB923C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="114" cy="136" r="6.5" fill="#F45D22" stroke="#FAF4E4" stroke-width="2"/>
+    <!-- Geometric OpenPaw Toe Beans + Main Pad -->
+    <ellipse cx="180" cy="122" rx="9" ry="12" transform="rotate(-18 180 122)" fill="#F45D22" stroke="#FAF4E4" stroke-width="2"/>
+    <ellipse cx="205" cy="113" rx="9.5" ry="12.5" fill="#F45D22" stroke="#FAF4E4" stroke-width="2"/>
+    <ellipse cx="230" cy="122" rx="9" ry="12" transform="rotate(18 230 122)" fill="#F45D22" stroke="#FAF4E4" stroke-width="2"/>
+    <path d="M 176 164 C 176 144, 190 137, 205 137 C 220 137, 234 144, 234 164 C 234 179, 222 187, 205 187 C 188 187, 176 179, 176 164 Z" fill="#F45D22" stroke="#FAF4E4" stroke-width="2.2"/>
+
+    <!-- Satellite Node 1: lattice-dx -->
+    <g transform="translate(0, 34)" filter="url(#card-shadow-dark)">
+      <rect x="0" y="0" width="120" height="34" rx="9" fill="#111827" stroke="#FB923C" stroke-opacity="0.65" stroke-width="1.3"/>
+      <circle cx="15" cy="17" r="4" fill="#FB923C"/>
+      <text x="26" y="21.5" class="mono" font-size="11.5" font-weight="700" fill="#F8FAFC">lattice-dx</text>
+    </g>
+
+    <!-- Satellite Node 2: lattice-docs -->
+    <g transform="translate(274, 34)" filter="url(#card-shadow-dark)">
+      <rect x="0" y="0" width="128" height="34" rx="9" fill="#111827" stroke="#60A5FA" stroke-opacity="0.65" stroke-width="1.3"/>
+      <circle cx="15" cy="17" r="4" fill="#60A5FA"/>
+      <text x="26" y="21.5" class="mono" font-size="11.5" font-weight="700" fill="#F8FAFC">lattice-docs</text>
+    </g>
+
+    <!-- Satellite Node 3: lattice-templates -->
+    <g transform="translate(0, 228)" filter="url(#card-shadow-dark)">
+      <rect x="0" y="0" width="146" height="34" rx="9" fill="#111827" stroke="#2DD4BF" stroke-opacity="0.65" stroke-width="1.3"/>
+      <circle cx="15" cy="17" r="4" fill="#2DD4BF"/>
+      <text x="26" y="21.5" class="mono" font-size="11" font-weight="700" fill="#F8FAFC">lattice-templates</text>
+    </g>
+
+    <!-- Satellite Node 4: NocoBase 2.2.50 -->
+    <g transform="translate(262, 228)" filter="url(#card-shadow-dark)">
+      <rect x="0" y="0" width="140" height="34" rx="9" fill="#111827" stroke="#A78BFA" stroke-opacity="0.65" stroke-width="1.3"/>
+      <circle cx="15" cy="17" r="4" fill="#A78BFA"/>
+      <text x="26" y="21.5" class="mono" font-size="11" font-weight="700" fill="#F8FAFC">NocoBase 2.2.50</text>
+    </g>
+  </g>
+</svg>

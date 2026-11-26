@@ -1,0 +1,51 @@
+================================================================================
+CTU-OpenPaw Open-Source Ecosystem — Copyright & Pure-OSI Boundary Statement
+Version: 0.4.2 (0.x pre-major series)
+Copyright (C) 2026 CTU-OpenPaw (https://github.com/CTU-OpenPaw)
+All original first-party source code, documentation, and templates are
+licensed under the Apache License, Version 2.0.
+================================================================================
+
+1. Scope of First-Party Copyright (Apache-2.0)
+--------------------------------------------------------------------------------
+CTU-OpenPaw holds copyright over all original first-party works created for the
+LatticeDX ("DX-OS Open-Core", v0.4.2) open-source ecosystem across:
+  - CTU-OpenPaw/.github            (Organization profile, assets & OSS governance)
+  - CTU-OpenPaw/lattice-dx         (Core platform, 7 NocoBase plugins, apps, packages, scripts, infra, tests)
+  - CTU-OpenPaw/lattice-docs       (Bilingual Vietnamese/English technical & OSS documentation portal)
+  - CTU-OpenPaw/lattice-templates  (Sanitized LatticeFlow v2, DMN, n8n, Form & Business Pack blueprints)
+
+All original first-party files carry SPDX-License-Identifier: Apache-2.0
+headers (where file syntax permits) and are distributed under the Apache License,
+Version 2.0 (see LICENSE and NOTICE).
+
+2. Pure-OSI Repository Boundary & External Host Attribution
+--------------------------------------------------------------------------------
+100% of CTU-OpenPaw Git repositories and release tarballs contain strictly
+OSI-approved works (Apache-2.0 first-party artifacts and OSI-compatible
+dependencies). Specifically:
+  - ZERO BSL-1.1 software (no ThingsBoard, no EMQX) anywhere in workspace code,
+    lockfiles, SBOMs (257/257 components resolved, 0 NONE), or core OCI stacks.
+  - ZERO upstream/nocobase Git submodules and ZERO .gitmodules files.
+  - External host runtime nocobase/nocobase:2.2.50 runs strictly as an external
+    OCI container outside Git source trees. First-party plugins declare
+    "nocobase": { "sdkProvidedByHost": true } and preserve NocoBase Clause 5.2
+    UI attribution ("Powered by NocoBase", "v2.2.50", "https://www.nocobase.com",
+    "License settings").
+
+3. Verified Platform Baseline (v0.4.2)
+--------------------------------------------------------------------------------
+  - 7 Pure-OSI Apache-2.0 NocoBase plugins (testedRuntime: "2.2.50")
+  - 12 Native v2 BlockModels & 24 LatticeFlow v2 DAG nodes
+  - 20 Unified AI Tools & 7 Starter AI Profiles
+  - 56 static PostgreSQL 16 FORCE RLS tables (+ dynamic latticeCustom* RLS)
+  - 257/257 CycloneDX 1.5 SBOM components (0 NONE, 0 BSL-1.1), 0 prod CVEs
+  - 1,098+ SPDX-verified source files, 2,509 unit/integration tests, 124/124 E2E,
+    163/163 Vietnamese NL Eval cases
+
+4. Third-Party Trademarks & Licenses
+--------------------------------------------------------------------------------
+Third-party trademarks, dependencies, and standalone containerized services
+remain the property of their respective copyright holders and are governed by
+their original licenses as documented in NOTICE and docs/third-party.md of
+CTU-OpenPaw/lattice-dx.

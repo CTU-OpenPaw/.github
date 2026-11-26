@@ -1,0 +1,35 @@
+# Dependencies & build artifacts
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.vitepress/cache/
+.vitepress/dist/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.env.integration
+*.pem
+*.key
+
+# Temporary & workspace metadata
+tmp/
+/tmp/
+output/
+.worktrees/
+.agents/teamwork/
+*.log
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
