@@ -32,16 +32,6 @@
 
 > **Tiếng Việt:** **CTU-OpenPaw** (Trường Đại học Cần Thơ) phát triển hạ tầng doanh nghiệp nguồn mở chuẩn **Pure-OSI** theo giấy phép **Apache-2.0**, với nền tảng lõi [**LatticeDX (`v0.4.2`)**](https://github.com/CTU-OpenPaw/lattice-dx) tích hợp 7 plugin NocoBase, cô lập dữ liệu PostgreSQL 16 `FORCE RLS`, điều phối quy trình DAG/DMN, bản sao số IIoT và tác nhân AI có kiểm soát. Xem [cổng tài liệu tiếng Việt tại LatticeDocs](https://ctu-openpaw.github.io/lattice-docs/).
 
-## Ecosystem Architecture
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CTU-OpenPaw/.github/main/assets/ecosystem-dark.webp" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CTU-OpenPaw/.github/main/assets/ecosystem-light.webp" />
-    <img src="https://raw.githubusercontent.com/CTU-OpenPaw/.github/main/assets/ecosystem-light.webp" alt="CTU-OpenPaw Open-Source Ecosystem Architecture" width="100%" />
-  </picture>
-</p>
-
 ## Repositories
 
 | Repository | Purpose | Stack / License | Links |
